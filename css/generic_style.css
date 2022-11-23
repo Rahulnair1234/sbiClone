@@ -1,0 +1,1562 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background: url("../images/body_bg.jpg") 0px 0px repeat;
+  font-style: normal !important;
+  font-variant: normal !important;
+  font-weight: normal !important;
+  font-stretch: normal !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  font-family: arial !important;
+}
+html {
+  overflow-y: auto;
+}
+#wrapper {
+  margin: 0px auto;
+  overflow: inherit;
+  background: rgb(255, 255, 255);
+  position: relative;
+  box-shadow: rgb(207, 207, 207) 3px 15px 15px 3px;
+  z-index: inherit;
+}
+a {
+  text-decoration: none !important;
+}
+img {
+  border: 0px;
+  vertical-align: middle;
+}
+h2,
+h3,
+h4,
+h5 {
+  padding: 10px 0px 5px;
+  margin: 0px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 16px;
+}
+#logo,
+#osbi_logo,
+#reset,
+#fontSizePlus,
+#theme1,
+#theme2,
+.fb,
+.yt,
+.tw,
+#personal_icon,
+#corporate_icon,
+.slider-item-markers li a,
+.slider-item-markers li.active-marker a,
+.accept,
+.reject,
+#left_navigate,
+#right_navigate,
+.netbanking_button,
+.netbanking_button_up {
+}
+#logo,
+#osbi_logo,
+#reset,
+#fontSizePlus,
+#theme1,
+#theme2,
+.fb,
+.yt,
+.tw,
+#personal_icon,
+#corporate_icon,
+.slider-item-markers li a,
+.slider-item-markers li.active-marker a,
+.accept,
+.reject,
+#left_navigate,
+#right_navigate,
+.netbanking_button,
+.netbanking_button_up {
+  background-image: url("../images/sprite.png");
+}
+#logo,
+.logo,
+#font-resize,
+#theme_switcher,
+#osbi_logo,
+.copy,
+.corp_login {
+  float: left;
+}
+#chairman,
+.osbi_logo,
+.site {
+  float: right;
+}
+#fontSizePlus,
+#reset {
+  vertical-align: top;
+}
+#reset,
+#fontSizePlus,
+#theme1,
+#theme2 {
+  display: inline-block;
+}
+#theme1,
+#theme2 {
+  height: 15px;
+  margin: 0px 5px 0px 0px;
+  width: 15px;
+}
+#header {
+  overflow: hidden;
+  position: relative;
+}
+/* #netbanking_branches { position: absolute; }  */
+/* .logo { width: 638px; } */
+#logo {
+  display: block;
+  width: 181px;
+  height: 54px;
+  background-position: -12px -8px;
+  margin: 6px 0px;
+}
+.osbi_logo {
+  margin: 10px 15px 0px 0px;
+}
+#osbi_logo {
+  width: 70px;
+  height: 48px;
+  background-position: -231px -12px;
+}
+#reset {
+  background-position: -231px -88px;
+  width: 10px;
+}
+#fontSizePlus {
+  background-position: -249px -88px;
+  width: 14px;
+}
+#reset,
+#fontSizePlus {
+  margin: 0px 5px 0px 0px;
+}
+#theme1 {
+  background-position: -277px -88px;
+}
+#theme2 {
+  background-position: -302px -88px;
+}
+.noBdr_lg {
+  border-right: 0px !important;
+}
+#navigation .navbar {
+  min-height: auto;
+  margin: 0px;
+  border-radius: 0px;
+}
+#navigation .navbar-default {
+  background: rgb(12, 55, 106);
+}
+#navigation .navbar-default .navbar-nav > li > a {
+  color: rgb(255, 255, 255);
+  padding: 10px 6px;
+  border-right: 1px solid rgb(22, 160, 134);
+}
+#navigation .navbar-default .navbar-nav > li > a.hindi-text {
+  margin: 6px;
+  padding: 4px 10px;
+  color: #fff251;
+  border: none;
+}
+#navigation .navbar-default .navbar-nav > li > a.hindi-text:hover {
+  background-color: #0f6b5a;
+}
+#navigation .navbar-default .navbar-nav > li > a:hover,
+#navigation .dropdown-menu li a:hover,
+#navigation .dropdown-menu > li > a:focus,
+#navigation > li:hover > a,
+#navigation .navbar-default .navbar-nav > .open > a,
+#navigation .navbar-default .navbar-nav > .open > a:hover,
+#navigation .navbar-default .navbar-nav > .open > a:focus {
+  background-color: rgb(12, 55, 106);
+}
+#navigation .dropdown-menu {
+  box-shadow: none;
+  border-radius: 0px;
+  padding: 0px;
+  border: 1px solid rgb(22, 160, 134);
+}
+#navigation .dropdown-menu li a {
+  font-size: 12px;
+  padding: 8px 20px;
+  border-bottom: 1px solid rgb(22, 160, 134);
+}
+#navigation .dropdown-menu li a:hover {
+  color: rgb(255, 255, 255);
+}
+.void_border {
+  border: 0px !important;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu > .dropdown-menu {
+  top: 0px;
+  left: 100%;
+  margin: 0px;
+  border-radius: 0px 6px 6px;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown-submenu > a::after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0px;
+  height: 0px;
+}
+#navigation .hinditxt a {
+  background: rgb(15, 107, 90);
+}
+#navigation::before,
+#navigation::after,
+#primary_navigation::before,
+#primary_navigation::after,
+#primary_navigation ul::after {
+  content: "";
+  display: table;
+}
+#navigation::after,
+#primary_navigation::after,
+#primary_navigation ul::after {
+  clear: both;
+}
+#primary_navigation,
+#navigation,
+#primary_navigation ul::after {
+  zoom: 1;
+}
+.row {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+#banking {
+  color: rgb(51, 51, 51) !important;
+  padding: 0px 0px 5px !important;
+}
+.banking_section {
+  border: 1px solid rgb(216, 216, 216);
+  background: rgb(248, 248, 248);
+  text-align: center;
+  min-height: 242px;
+}
+.box1,
+.box2 {
+  padding: 0px 5px !important;
+}
+#personal_icon {
+  background-position: -13px -88px;
+  width: 42px;
+  height: 46px;
+  display: inline-block;
+  margin: 7px 0px;
+}
+#corporate_icon {
+  background-position: -104px -90px;
+  width: 76px;
+  height: 44px;
+  display: inline-block;
+  margin: 7px 0px;
+}
+.corp_icon {
+  display: inline-block;
+  margin: 10px 0px 12px;
+}
+.personal {
+  display: block;
+  color: rgb(2, 2, 2);
+  font-size: 18px;
+}
+.personal_highlight {
+  color: rgb(38, 111, 160);
+}
+.login {
+  padding: 10px 0 0;
+  background: rgb(255, 255, 255);
+  margin: 10px 0px;
+  overflow: hidden;
+  min-height: 45px;
+  display: inline-block;
+}
+.login-new {
+  width: 120px !important;
+  padding: 7px 0px !important;
+  background: none !important;
+}
+.new_version {
+  width: 155px !important;
+}
+.login-new span {
+  padding: 7px 15px;
+}
+.login-new .classicTxt {
+  background: rgb(0, 51, 102);
+}
+.login-new .classicImg {
+  background: rgb(2, 45, 88);
+}
+.login-new .newTxt {
+  background: rgb(0, 77, 153);
+}
+.login-new .newImg {
+  background: rgb(4, 68, 131);
+}
+.login a {
+  background: rgb(12, 55, 106);
+  color: rgb(255, 255, 255);
+  padding: 6px 10px;
+  margin: 0px 5px;
+  font-weight: bold;
+}
+.login a:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255) !important;
+}
+.login a.corp_login {
+  margin: 0px 15px !important;
+  padding: 7px 25px;
+}
+.logincorp {
+  padding-top: 16px;
+}
+.select-wrapper {
+  float: left;
+  display: inline-block;
+  background: url("../images/dropdown.png") right center no-repeat;
+  cursor: pointer;
+}
+.select-wrapper,
+.select-wrapper select {
+  width: 185px;
+}
+.select-wrapper:hover {
+  background: url("../images/dropdown-hover.png") right center no-repeat;
+  border-color: rgb(35, 159, 219);
+}
+.select-wrapper .holder {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: left;
+  margin: -21px 0px 0px 7px;
+}
+.select-wrapper select {
+  margin: 0px;
+  z-index: 2;
+  cursor: pointer;
+  outline: none;
+  opacity: 0;
+  display: none !important;
+}
+.lite {
+  background: rgb(24, 103, 197) !important;
+  padding: 7px 15px !important;
+}
+.newuser {
+  margin: 0px auto;
+  padding: 8px 0px 2px 0px;
+  overflow: hidden;
+}
+.newuserCorp {
+  padding: 8px 0px 2px 0px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+.newuserCorp li {
+  display: inline-block;
+  color: rgb(2, 2, 2);
+  border-right: 1px solid rgb(204, 204, 204);
+  padding: 0px 7px;
+}
+.newuserCorp li a {
+  display: block;
+}
+.belowLogSec p {
+  margin: 0px 15px 5px !important;
+}
+.newuser li {
+  display: inline-block;
+  color: rgb(2, 2, 2);
+  border-right: 1px solid rgb(204, 204, 204);
+  padding: 0px 7px;
+  float: left;
+}
+.newuser li a,
+.newuserCorp li a {
+  display: block;
+  color: rgb(2, 2, 2);
+  text-align: left;
+}
+.register {
+  background: url("../images/register.png") 0px 0px no-repeat;
+  height: 30px;
+  padding: 5px 0px 0px 35px;
+}
+.how {
+  background: url("../images/faq.png") 0px 0px no-repeat;
+  height: 30px;
+  padding: 5px 0px 0px 35px;
+}
+.ncrWidth {
+  width: 38%;
+}
+.hdiWidth {
+  width: 40%;
+}
+.customer_care {
+  background: url("../images/cust_care.png") 0px 0px no-repeat;
+  height: 30px;
+  padding: 5px 0px 0px 39px;
+}
+.aadhar {
+  background: url("../images/aadhar.png") 0px 0px no-repeat;
+  height: 30px;
+  padding: 5px 0px 0px 40px;
+}
+.unlockUser {
+  background: url("../images/unlock_user.png") 0px 0px no-repeat;
+  height: 30px;
+  padding: 5px 0px 0px 40px;
+}
+li.customer a span.cus_care {
+  padding: 0px 3px 0px;
+}
+li.link_aadhaar a > span {
+  padding: 0px 3px 0px;
+}
+.banking_section p {
+  text-align: left;
+  color: rgb(51, 51, 51);
+  line-height: 20px;
+  margin: 13px 15px 8px;
+  font-size: 13px;
+}
+#banner {
+  position: relative;
+  padding: 0px;
+  overflow: hidden;
+  height: 240px;
+}
+#slider,
+.slider-item-slide {
+  width: 1000px;
+  height: 240px;
+}
+.slider-item {
+  padding: 0px;
+  margin: 0px;
+}
+.slider-item-slide,
+.slider-item-markers {
+  position: absolute;
+}
+.slider-item-markers {
+  top: 5px;
+  right: 10px;
+  padding: 7px;
+  z-index: 1000;
+  list-style-type: none !important;
+}
+.slider-item-markers li {
+  margin: 0px 3px;
+  line-height: 0;
+  float: left;
+}
+.slider-item-markers li a {
+  display: block;
+}
+.slider-item,
+.slider-item-slide {
+  display: none;
+}
+.slider-item-markers li a {
+  background-position: -256px -131px;
+  height: 12px;
+  width: 12px;
+}
+.slider-item-markers li.active-marker a {
+  background-position: -230px -131px;
+}
+#banner_a {
+  background: url("../../images/banner1.jpg") 0px 0px no-repeat;
+}
+#banner_b {
+  background: url("../../images/banner2.jpg") 0px 0px no-repeat;
+}
+#banner_c {
+  background: url("../../images/banner3.jpg") 0px 0px no-repeat;
+}
+#banner_d {
+  background: url("../../images/banner4.jpg") 0px 0px no-repeat;
+}
+#banner_e {
+  background: url("../../images/banner5.jpg") 0px 0px no-repeat;
+}
+#banner_f {
+  background: url("../../images/banner6.jpg") 0px 0px no-repeat;
+}
+#banner_g {
+  background: url("../../images/banner7.jpg") 0px 0px no-repeat;
+}
+#banner_h {
+  background: url("../../images/banner8.jpg") 0px 0px no-repeat;
+}
+#banner_i {
+  background: url("../../images/banner9.jpg") 0px 0px no-repeat;
+}
+#banner_temp {
+  background: url("../../images/banner_temp.jpg") 0px 0px no-repeat;
+}
+.banner_link {
+  display: block;
+}
+#footer {
+  background: rgb(12, 55, 106);
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  overflow: hidden;
+}
+#footer p {
+  margin: 8px 5px;
+}
+.lightbox_content {
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  overflow: hidden;
+  width: 550px;
+  border: 2px solid rgb(0, 131, 185);
+}
+.lightbox_content h5 {
+  color: rgb(0, 101, 153);
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px 0px 7px;
+  padding: 0px;
+}
+.lightbox_content p {
+  color: rgb(68, 68, 68);
+  line-height: 20px;
+}
+.clx {
+  position: absolute;
+  right: -12px;
+  top: -10px;
+  background: url("../images/close.png") 0px 0px no-repeat;
+  width: 35px;
+  height: 35px;
+}
+.video_list {
+  margin: 10px 0px 0px;
+  list-style: none;
+}
+.video_list li {
+  margin: 0px 0px 10px;
+}
+.video_list li a {
+  color: rgb(0, 131, 185);
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 5px 0px 0px 39px;
+  text-decoration: none;
+}
+
+/* Added by Anbu */
+.otb,
+.bp,
+.kbh,
+.cfo {
+  height: 30px;
+}
+.otb {
+  background: url("../images/lb_ticket_icon.png") 0px 0px no-repeat;
+}
+.bp {
+  background: url("../images/lb_online_icon.png") 0px 0px no-repeat;
+}
+.kbh {
+  background: url("../images/lb_smart_user_icon.png") 0px 0px no-repeat;
+}
+.cfo {
+  background: url("../images/lb_collect_fee_icon.png") 0px 0px no-repeat;
+}
+
+.cinbYono_list {
+  margin: 10px 0px 0px;
+  list-style: none;
+  padding: 0px 0px 0px 18px !important;
+}
+.cinbYono_list li {
+  margin: 0px 0px 10px;
+}
+.cinbYono_list li a {
+  color: rgb(0, 131, 185);
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.ybbi_login,
+.cinb_prof {
+  height: 30px;
+  height: 30px;
+  display: inline-block;
+  width: 80px;
+}
+.ybbi_login {
+  background: url("../images/lb_ybbi_login.png") 0px 0px no-repeat;
+}
+.cinb_prof {
+  background: url("../images/lb_cinb_prof.png") 0px 0px no-repeat;
+}
+.textLinkcinbYono_list {
+  position: relative;
+  top: -12px;
+  display: inline-block;
+}
+/* Added by Anbu */
+
+.rinb_video {
+  background: url("../images/rinb_video.png") 0px 0px no-repeat;
+  padding: 6px 0px;
+}
+#browser_cache {
+  padding: 0px !important;
+}
+#browser_cache p {
+  border: 1px solid rgb(216, 216, 216);
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+.netbanking_button {
+  background-position: -18px -316px;
+  height: 35px;
+  width: 185px;
+  display: inline-block;
+}
+.netbanking_button_up {
+  background-position: -18px -263px !important;
+}
+/*#netbanking_popup { background: rgb(249, 249, 249); border-bottom: 5px solid rgb(203, 203, 203); position: absolute; left: 0px; top: 0px; width: 100%; z-index: 1000; display: none; }*/
+#netbanking_popup {
+  display: none;
+  background: #f9f9f9;
+  border-bottom: 4px solid #cbcbcb;
+}
+.netbanking_content {
+  height: auto;
+}
+.useful_links {
+  margin: 0px 10px;
+  padding: 5px 0px;
+  overflow: hidden;
+  list-style: none;
+  text-align: center;
+}
+.useful_links li {
+  background: url("../images/disc_bullet.png") 0px 20px no-repeat scroll;
+  padding: 15px 0px 5px 5px;
+  display: inline-block;
+}
+.useful_links li a {
+  color: rgb(111, 111, 111);
+  display: block;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.useful_links li a:hover {
+  text-decoration: underline !important;
+}
+#inb-list {
+  margin: 10px 50px 5px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+#inb-list li a {
+  color: rgb(23, 89, 134);
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 2px 0px;
+}
+#inb-list li {
+  padding: 6px 0px;
+  margin: 0px !important;
+}
+.sticky-container {
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  right: -140px;
+  top: 200px;
+  width: 220px;
+  z-index: 1000;
+}
+.sticky li {
+  list-style-type: none;
+  background-color: rgb(203, 239, 251);
+  color: rgb(239, 239, 239);
+  height: 43px;
+  padding: 0px;
+  margin: 0px 0px 1px;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+.sticky li:hover {
+  margin-left: -115px;
+}
+.sticky li img {
+  float: left;
+  margin: 5px 5px 5px 4px;
+}
+.sticky li p {
+  padding-top: 5px;
+  margin: 0px;
+  line-height: 16px;
+  font-size: 11px;
+}
+.sticky li p a {
+  text-decoration: none;
+  color: rgb(44, 53, 57);
+}
+.sticky li p a:hover {
+  text-decoration: underline !important;
+}
+.mSocialLinks li {
+  float: left;
+  list-style: none;
+  padding: 1px 2px;
+}
+.mSocialLinks {
+  padding: 0px;
+}
+#message {
+  background: rgb(203, 239, 251);
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  padding: 7px;
+  display: block;
+  margin: 10px 0px;
+}
+#service_charge_tab {
+  color: rgb(111, 111, 111);
+  display: block;
+  margin: 0px 7px;
+  cursor: pointer;
+  background: none;
+}
+#service_charge_tab:hover {
+  text-decoration: underline;
+}
+.service_table {
+  border: 1px solid rgb(206, 217, 236);
+  border-collapse: collapse;
+}
+.service_table th {
+  background: none 0px 0px repeat scroll rgb(78, 137, 197);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 7px;
+  font-size: 14px;
+  text-align: left;
+}
+.service_table td {
+  background: none 0px 0px repeat scroll rgb(239, 238, 236);
+  border-bottom: 1px solid rgb(179, 193, 219);
+  border-right: 1px solid rgb(206, 217, 236);
+  padding: 6px;
+}
+.service_table td:first-child,
+.service_heading {
+  font-weight: bold;
+}
+.carousel-indicators .active {
+  height: 12px !important;
+}
+.fill {
+  width: 100%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+a.yonoBtn {
+  /*border: 1px solid red;*/
+  background: #fff !important;
+}
+
+a.yonoBtn > img {
+  margin-top: -1px;
+}
+
+.corpLogin {
+  /* margin-left: 24%; */
+  text-align: center;
+}
+
+.carousel-control.left {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  ) !important;
+}
+.carousel-control.right {
+  background-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  ) !important;
+}
+.useful_link a:focus {
+  outline: none !important;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+/*bootstrap-select */
+.grey_color {
+  color: red;
+}
+
+.login {
+  overflow: inherit;
+}
+.login ul a {
+  background: none !important;
+}
+.login ul a:hover {
+  color: #000 !important;
+}
+.bs-docs-example > .select-wrapper {
+  border: none;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  width: 185px !important;
+}
+.bs-docs-example .dropdown-menu {
+  width: 166px !important;
+  margin: 0px;
+  border-radius: 0px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: solid 1px #ccc;
+}
+.select-wrapper .holder {
+  display: none;
+}
+.select-wrapper .btn {
+  border-radius: 0px;
+  height: 28px;
+  padding: 0px 12px;
+}
+.select-wrapper button:hover {
+  background: url("/images/dropdown-hover.png") right center no-repeat;
+  border-color: rgb(35, 159, 219);
+  display: inline-block;
+}
+.select-wrapper button,
+.select-wrapper .bootstrap-select .dropdown-toggle:focus {
+  display: inline-block;
+  border: 1px solid rgb(216, 216, 216);
+  background: url(/images/dropdown.png) right center no-repeat;
+  cursor: pointer;
+  font-size: inherit;
+}
+.select-wrapper .dropdown-menu > li > a:hover,
+.select-wrapper .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #ffffff !important;
+  background-color: rgb(35, 159, 219) !important;
+  margin: 0px;
+  outline: none;
+  padding: 3px 14px;
+}
+.select-wrapper .dropdown-menu > li > a {
+  padding: 3px 8px;
+}
+.select-wrapper .dropdown-menu {
+  padding: 0px;
+}
+.select-wrapper .btn-default:active,
+.select-wrapper .btn-default.active,
+.select-wrapper .open > .dropdown-toggle.btn-default,
+.select-wrapper .dropdown-toggle.btn-default:hover {
+  background: url("/images/dropdown-hover.png") right center no-repeat !important;
+  border-color: rgb(35, 159, 219) !important;
+}
+.select-wrapper .bs-caret {
+  display: none;
+}
+.overlay-content {
+  position: relative;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 45px;
+}
+#netbanking_popup_mob .useful_links li {
+  width: 50%;
+  text-align: left;
+  background: none;
+  padding: 1px 0px;
+}
+#message a {
+  color: blue;
+}
+.carousel-control {
+  width: 5% !important;
+}
+.carousel-control .icon-next {
+  right: 50% !important;
+}
+.carousel-control .icon-prev {
+  left: 50% !important;
+}
+.carousel-control .icon-next,
+.carousel-control .icon-prev {
+  top: 46% !important;
+  color: #000 !important;
+  font-size: 34px !important;
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+  width: 40px !important;
+  height: 40px !important;
+}
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+  left: 20%;
+}
+.previous,
+.next {
+  position: absolute;
+}
+
+.next:hover,
+.previous:hover {
+  color: black;
+}
+
+.next {
+  background-color: #f1f1f1;
+  color: white;
+  right: 20%;
+}
+.round {
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #navigation .navbar-default .navbar-nav > li > a {
+    padding: 10px 3px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #footer .text-right p {
+    text-align: center;
+  }
+  .navbar-nav.sm-collapsible .caret,
+  .navbar-nav.sm-collapsible ul .caret {
+    line-height: 24px !important;
+  }
+  .navbar-nav span.sub-arrow:hover {
+    background: rgb(24, 103, 197);
+  }
+  #navigation .dropdown-menu li a {
+    background-color: rgb(34, 65, 104);
+    color: white;
+    padding: 12px 20px;
+  }
+
+  #navigation .dropdown-menu li a:hover {
+    background-color: rgb(24, 103, 197);
+  }
+  #navigation .mergerFAQ > ul.dropdown-menu li a {
+    background-color: #153f4f;
+    padding-left: 35px;
+  }
+  #navigation .mergerFAQ > ul.dropdown-menu li a:hover {
+    background: rgb(24, 103, 197);
+  }
+
+  #navigation .registrationFAQ > ul.dropdown-menu li a {
+    background-color: #16504f;
+    padding-left: 50px;
+  }
+  #navigation .registrationFAQ > ul.dropdown-menu li a:hover {
+    background: rgb(24, 103, 197);
+  }
+  .dropdown-menu {
+    position: relative !important;
+    width: 100% !important;
+  }
+  .nav > li {
+    padding-left: 0px;
+    /*border-bottom: 1px solid #00fffa;*/
+    font-size: 14px;
+  }
+  .newuser {
+    padding-left: 5%;
+  }
+  .corpLogin {
+    /* margin-left: 29%; */
+  }
+  .useful_links li {
+    font-size: 11px !important;
+  }
+  #navigation .navbar-default .navbar-nav > li > a {
+    font-size: 14px;
+    padding: 10px 15px;
+    font-weight: normal;
+  }
+  #font-resize,
+  #theme_switcher {
+    padding: 0;
+  }
+  #browser_cachem img {
+    width: 70%;
+  }
+  #browser_cachem p {
+    border: 1px solid #d8d8d8;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+  }
+  .navbar-collapse {
+    width: auto;
+  }
+  .noBdr_md {
+    border-right: 0px !important;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  /*.payjo-preview-container-wrapper {
+		display: none !important;
+	}*/
+  #footer .text-right p {
+    text-align: left;
+  }
+  #service_charge_detail {
+    z-index: 100000001;
+  }
+  #navigation .mergerFAQ > ul.dropdown-menu li a {
+    background-color: #153f4f;
+    padding-left: 35px;
+  }
+  #navigation .mergerFAQ > ul.dropdown-menu li a:hover {
+    background: rgb(24, 103, 197);
+  }
+
+  #navigation .registrationFAQ > ul.dropdown-menu li a {
+    background-color: #16504f;
+    padding-left: 50px;
+  }
+  #navigation .registrationFAQ > ul.dropdown-menu li a:hover {
+    background: rgb(24, 103, 197);
+  }
+  .navbar-nav span.sub-arrow:hover {
+    background: rgb(24, 103, 197);
+  }
+  ul.modal_list_electoral {
+    padding-left: 10px;
+  }
+  .navbar-toggle {
+    padding: 7px 6px !important;
+  }
+
+  #logo {
+    height: 48px;
+    margin: 4px 0px;
+  }
+  #navigation .dropdown-menu li a {
+    background-color: rgb(34, 65, 104);
+    padding: 10px 0px 10px 15px;
+    color: #ddd;
+  }
+
+  #navigation .dropdown-menu li a:hover {
+    background-color: rgb(24, 103, 197);
+  }
+  .corpLogin {
+    margin-left: 1%;
+  }
+  /* .newuser{
+        margin-left: 20px;
+    } */
+  .carousel {
+    /* height:120px !important; */
+    margin-bottom: 10px;
+  }
+  .netbanking_button {
+    background-position: -222px -351px;
+    height: 35px;
+    width: 38px;
+  }
+  #browser_cachem img {
+    width: 100%;
+  }
+  #browser_cachem p {
+    border: 1px solid #d8d8d8;
+    margin: 5px;
+    padding: 5px;
+  }
+  .useful_links li {
+    float: left;
+  }
+  #netbanking_popup_mob {
+    z-index: 100000000;
+    overflow: scroll;
+  }
+  .login a {
+    margin: 0px;
+    padding: 5px;
+  }
+  a.yonoBtn > img {
+    margin-top: -3px;
+  }
+  .register {
+    background: url("../images/register.png") 0px 0px no-repeat;
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+  }
+  .how {
+    background: url("../images/faq.png") 0px 0px no-repeat;
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+  }
+  .customer_care {
+    background: url("../images/cust_care.png") 0px 0px no-repeat;
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+  }
+  .aadhar {
+    background: url("../images/aadhar.png") 0px 0px no-repeat;
+    height: 30px;
+    width: 38px;
+    padding: 0px;
+  }
+  .unlockUser {
+    background: url("../images/unlock_user.png") 0px 0px no-repeat;
+    height: 30px;
+    width: 38px;
+    padding: 0px;
+  }
+  .newuser {
+    margin: 0px 0px 3% 5%;
+    padding: 0px !important;
+  }
+  .newuser li a span.img_mob {
+    width: 32px;
+    padding: 0px !important;
+  }
+  .newuser li {
+    padding: 4px 6px;
+  }
+  .newuserCorp li {
+    padding: 0px 4px;
+  }
+  .noBdr {
+    border-right: 0px !important;
+  }
+  .box1 {
+    margin: 0px 0px 5px 0px;
+  }
+  li.customer a > span {
+    padding: 4px 4px 0px;
+    display: block;
+  }
+  .select-wrapper,
+  .select-wrapper select {
+    width: 185px;
+  }
+  .login a.corp_login {
+    margin: 0px 9px !important;
+    padding: 7px 15px;
+  }
+  .new_mob {
+    position: static;
+  }
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  .carousel-control .icon-next,
+  .carousel-control .icon-prev {
+    font-size: 20px !important;
+  }
+  .overlay a {
+    text-align: left;
+    color: #bdbdbd;
+    padding: 8px 0px;
+  }
+  .select-wrapper button,
+  .select-wrapper .dropdown-menu {
+    /* min-width:144px !important; */
+    width: 185px !important;
+  }
+  .bs-docs-example .dropdown-menu {
+    /* min-width:144px !important; */
+    width: 185px !important;
+  }
+
+  #moreUsefulLinks_cont {
+    display: block !important;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .select-wrapper {
+    background: url("../images/dropdown.png") 154px -15px no-repeat !important;
+  }
+  .select-wrapper:hover {
+    background: url("../images/dropdown-hover.png") 154px -15px no-repeat !important;
+  }
+}
+
+/* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
+
+.modal .close {
+  color: #2a2075;
+  opacity: 1;
+}
+
+.modal h4 {
+  color: #1867c5;
+}
+.modal-dialog {
+  margin: 100px auto !important;
+}
+.modal_list_electoral li {
+  padding-bottom: 10px;
+  line-height: 20px;
+  list-style: circle;
+}
+ul.modal_list_electoral {
+  list-style-type: none;
+}
+
+.browsers li {
+  float: left;
+  list-style: none;
+  margin-right: 15px;
+}
+
+.new_mob {
+  position: absolute;
+  right: 6px;
+  top: -9px;
+}
+
+/* Marquee Starts */
+#wpanel_users marquee {
+  color: #39729f;
+  margin: 12px 0 0;
+}
+.wpanel_marquee {
+  box-sizing: border-box;
+  color: #39729f;
+  font-weight: bold;
+  margin: 12px 0 0;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 28px;
+}
+.wpanel_marquee p {
+  /*animation: 30s linear 0s normal none infinite running marquee;*/
+  animation: marquee 60s linear infinite;
+  display: inline-block;
+  padding-left: 100%;
+}
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+.wpanel_marquee p:hover {
+  animation-play-state: paused;
+}
+#wpanel_users marquee {
+  font-weight: bold;
+}
+/* Marquee Ends */
+
+.carousel-inner .fill img {
+  width: 100%;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ddd !important;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #00b5ef !important;
+}
+
+.socialIcons {
+  background-image: url("../images/sprite.png");
+  width: 32px;
+  height: 34px;
+  float: left;
+  margin: 4px;
+}
+
+#icon_linkfb {
+  background-position: -20px -399px;
+}
+#icon_linktw {
+  background-position: -72px -399px;
+}
+#icon_linkyt {
+  background-position: -123px -399px;
+}
+#icon_linklindn {
+  background-position: -175px -399px;
+}
+#icon_linkinst {
+  background-position: -227px -399px;
+}
+#icon_linkpint {
+  background-position: -279px -399px;
+}
+
+.mSocialIcons {
+  background-image: url("../images/sprite.png");
+  width: 22px;
+  height: 22px;
+  float: left;
+  margin: 4px;
+}
+
+#icon_mlinkfb {
+  background-position: -69px -456px;
+}
+#icon_mlinktw {
+  background-position: -104px -457px;
+}
+#icon_mlinkyt {
+  background-position: -138px -457px;
+}
+#icon_mlinklindn {
+  background-position: -173px -458px;
+}
+#icon_mlinkinst {
+  background-position: -207px -458px;
+}
+#icon_mlinkpint {
+  background-position: -249px -456px;
+}
+.no_padding {
+  padding: 0px;
+}
+.cus_care {
+  float: left;
+}
+.cus_text {
+  padding: 5px 0px 0px;
+  display: block;
+}
+#primary_navigation a {
+  cursor: pointer;
+}
+.corp_section_hin {
+  padding: 10px;
+}
+#service_charge_detail .modal-content {
+  border: 0;
+}
+
+.browsers li {
+  float: left;
+  list-style: none;
+  margin-right: 15px;
+}
+.browsers li a {
+  padding: 6px 4px;
+  display: inline-block;
+}
+
+#icon_iexplorer {
+  background-image: url("../images/sprite.png");
+  background-position: -97px -495px;
+  width: 25px;
+  height: 25px;
+  float: left;
+}
+
+#icon_firefox {
+  background-image: url("../images/sprite.png");
+  background-position: -54px -495px;
+  width: 25px;
+  height: 25px;
+  float: left;
+}
+
+#icon_chrome {
+  background-image: url("../images/sprite.png");
+  background-position: -13px -495px;
+  width: 25px;
+  height: 25px;
+  float: left;
+}
+.login .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+  width: 85% !important;
+}
+/* Useful Links Starts */
+.usefulLinks {
+  background: rgb(248, 248, 248);
+  padding: 0 15px !important;
+  margin: -5px 0 0 !important;
+}
+.usefulLinks h2 span {
+  font-size: 18px;
+  color: #05172b;
+  border-bottom: 2px solid #00aade;
+  padding-bottom: 5px;
+}
+/* .usefulLinks ul { margin-top:10px;} */
+.usefulLinksSet1 {
+  margin-top: 10px !important;
+}
+.listLinksSet1 {
+  margin-bottom: 0px !important;
+}
+.usefulLinks ul li {
+  border: none;
+  list-style-position: outside;
+  background: url(../images/icon_usefulLinks.png) no-repeat left center;
+}
+.usefulLinks ul li a {
+  color: #05607d;
+  cursor: pointer;
+}
+.usefulLinks ul li:hover a {
+  color: #04192a;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+.otherLinkBtn a {
+  border: 1px solid #00a9df;
+  padding: 10px 25px 10px 40px;
+  display: inline-block;
+  margin-bottom: 25px;
+  background: url(../images/icon_otherLink.png) no-repeat 20px center;
+  color: #00a9df !important;
+  cursor: pointer;
+}
+/*.otherLinkBtn a:hover{background:url(../images/icon_otherLinkHover.png) no-repeat 20px center; color:#00a9df; }*/
+#otherLinksBlock {
+  display: none;
+}
+.usefulLinks h2 {
+  margin: 10px 0px 10px;
+}
+.padListZero {
+  padding-right: 0px !important;
+}
+.panelUsefulLink {
+  top: -10px;
+  position: relative;
+}
+/* Useful Links Ends */
+
+/* NRE/NRO Modal */
+
+#nrenroModal .download_btn .btn {
+  color: #fff;
+  padding: 3px 10px;
+}
+#nrenroModal .download_btn .btn-default {
+  background: #f89611 none repeat scroll 0 0;
+  border: 0 none;
+  font-weight: bold;
+}
+#nrenroModal .continuebtn {
+  background: #005c8b;
+  color: #fff;
+  cursor: pointer;
+}
+#nrenroModal .agreemargin {
+  margin-top: 20px;
+}
+#nrenroModal .buttongroup {
+  text-align: center;
+}
+#nrenroModal .radioLabel {
+  margin-left: 6px;
+  color: #bd3b3b;
+  font-weight: bold;
+  cursor: pointer;
+}
+.redalert {
+  color: red;
+}
+/* NRE/NRO Modal */

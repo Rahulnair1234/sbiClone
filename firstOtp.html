@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="otpStyle.css" />
+    <title>sbiotp</title>
+  </head>
+  <body>
+    <!-- ------OTP PAGE LAYOUT------ -->
+
+    <main class="container">
+      <div class="top-nav">
+        <img src="img/logo.jpg" alt="" class="logo" />
+        <div class="right-links">
+          <!-- <img src="img/sbi-home.jpg" alt="" class="logo2"> -->
+          <ul></ul>
+          <ul>
+            <li><a href="#">About OnlineSBI</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Registration Forms</a></li>
+          </ul>
+
+          <button class="logout">Logout</button>
+        </div>
+      </div>
+
+      <div class="white-nav">
+        <a href="#" class="bg-color">Welcome</a>
+      </div>
+
+      <div class="light-blue-nav">
+        <a href="#">Login Second Factor Authentication</a>
+      </div>
+
+      <p style="padding: 10px 30px">
+        Enter the One Time Password sent to your mobile phone
+      </p>
+
+      <span style="margin: 0 30px 10px 30px"
+        ><i>Mandatory fields are marked with an asterisk(*)</i></span
+      >
+
+      <form action="" id= "otp_login"class="form-input">
+        <label for="otp">One Time Password*</label>
+        <input type="number" required autocomplete="off" required id="otp1"/>
+
+        <button type="submit" class="otp-submit-btn">submit</button>
+      </form>
+
+      <div class="resend-otp">
+        <p>If you did not receive the High Security Password on SMS, you can</p>
+        <button class="resend-otp-btn" type="reset">Click here to resend the OTP</button>
+      </div>
+
+      <div class="yellow-description">
+        <li>
+          State Bank or any of its representative never sends you email/SMS or
+          calls you over phone to get your personal information, password or one
+          time SMS (high security) password. Any Such e-mail/SMS or phone call
+          is an attempt to fraudulently withdraw money from your account through
+          Internet Banking. Never responds to such email/SMS or phone call.
+          Please report immediately on report phoshing@sbi.co.in if you receive
+          any such email/SMS or phone call. Immediately change your password if
+          you have accidently revealed your credentials.
+        </li>
+        <li>
+          Please note that you will receive the all communication related to
+          Internet banking on your updated mobile number only after approval.
+        </li>
+      </div>
+
+      <!-- ------footer----- -->
+
+      <div class="otp-secondlast">
+        <a href="#">Privacy Statement</a>
+        <a href="#">Disclosure</a>
+        <a href="#">Terms of Services(Terms & Conditions)</a>
+        <a href="#">Site Map</a>
+      </div>
+
+      <div class="footer">
+        <p>© State Bank of India (APM Id: Serv_Tran_552)</p>
+        <p>
+          Site best viewed at 1024 x 768 resolution in Microsoft Edge 79 +,
+          Mozilla 96 +, Google Chrome 97 +
+        </p>
+      </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./otp1.js"></script>
+  </body>
+</html>

